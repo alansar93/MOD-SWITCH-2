@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel California</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>BIENVENIDOS A HOTEL CALIFORNIA</h1>
+
+    <label class="parte1" for="">Ingrese Cantidad de Camas:</label>
+    <select class="parte1" name="" id="cantidad-camas">
+        <option value="">-</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+    <button class="parte1" onclick="numCamas()">Ingrese</button>
+<br>
+    <label class="parte1" for="">Ingrese Cantidad de dias:</label>
+    <select class="parte1 name=" id="cantidad-dias">
+        <option value="">-</option>
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="7">7</option>
+    </select>
+    <button class="parte1" onclick="cantDias()">Ingrese</button>
+    <br>
+    <label class="parte2" for="">Que dia desea ingresar?:</label>
+    <select class="parte2" name="" id="dia-ingreso">
+        <option value="">-</option>
+        <option value="lunes">Lunes</option>
+        <option value="miercoles">Miercoles</option>
+        <option value="sabado">Sabado</option>
+    </select>
+    <button class="parte2" onclick="diaIngreso()">Ingrese</button>
+    <br>
+    <label class="parte2" for="">Servicios Extras</label>
+    <select class="parte2" name="" id="servicios-extras">
+        <option value="">-</option>
+        <option value="Desayuno">Desayuno</option>
+        <option value="Desayuno y Almuerzo">Desayuno y Almuerzo</option>
+        <option value="Desayuno, Almuerzo y Cena">Desayuno, Almuerzo y Cena</option>
+    </select>
+    <button class="parte2" onclick="serviciosExtras()">Ingrese</button>
+
+       <p></p>
+    <script src="algoritmo.js"></script>
+</body>
+
+</html>

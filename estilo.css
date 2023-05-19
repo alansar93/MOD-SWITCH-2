@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(194, 238, 223);
+    display: grid;
+   }
+
+h1{
+    color: blueviolet;
+    font-size: 90px;
+    text-align: center;
+}
+
+option{
+    text-align: center;
+    margin: 80px;
+    color: brown;
+    background-color: azure;
+    }
+
+label{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+button{
+    border-radius: 150px;
+    margin-left: 900px;
+    margin-right: 900px;
+}
+
+select{
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.parte1{
+    position: relative;
+    left: -720px;
+}
+
+.parte2{
+    position: relative;
+    right: -720px;
+    top: -200px;
+}
